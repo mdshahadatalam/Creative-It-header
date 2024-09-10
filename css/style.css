@@ -1,0 +1,136 @@
+
+aside{
+    width:40px;
+    height: 40px;
+    position: fixed;
+    background-color: #f00c22;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    display: flex;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+aside.active{
+visibility:visible;
+transition: 3ms;
+}
+.icon{
+    font-size: 25px;   
+}
+.arrow{
+    color: white;
+}
+
+.navbar.BigNav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 3px 3px 30px bisque;
+    animation: animate 0.5s linear;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(-100%);
+
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.contact{
+  font-size: 17px;
+  font-weight: bold;
+  word-break: 1px;
+}
+.contact span{
+    line-height: 150%;
+}
+.languge button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.languge button a:hover{
+    background-color: rgb(145, 41, 41);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+
+/* .BigNav{
+    position: fixed;
+} */
+
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+.browse{
+    background-color: #f00c22;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;    
+}
+.browse a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.unleash{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.become{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 150%;
+}
+.digital{
+    font-size: 40px;
+    font-weight: bold;
+    color: #dc3545;
+    line-height: 150%;
+}
+
+.peragraph{
+    line-height: 180%;
+    color: rgb(117, 112, 112);
+}
+
+.course ,.seminar{
+  padding: 20px 25px;
+  font-size: 18px;
+  border: none;
+  line-height: 50%;
+  background-color:#f00c22;
+  color: white;
+  border-radius: 10px;
+}
+.course:hover{
+    background-color: rgb(239, 229, 229);
+    color: #dc3545;
+}
+
+.seminar:hover{
+    background-color: rgb(239, 229, 229);
+    color: #dc3545;
+}
+
+.big-img{
+    border: 10px solid white;
+    border-radius: 20px;
+}
